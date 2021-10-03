@@ -24,9 +24,9 @@ const char HOUR_REGISTER = 0x02;
 const char TIMEZONE = 2; // +02H00 (RSA)
 
 // define pins
-const int LED = //CHoose your LED Pin here
+const int LED = 3;//CHoose your LED Pin here these are WiringPi Pin values not BOARD values
 const int SECS = 1;
-const int BTNS[] = {5,30}; // B0, B1
+const int BTNS[] = {0,2}; // B0, B1 these are WiringPi pin values not BOARD values
 
 
 #endif
